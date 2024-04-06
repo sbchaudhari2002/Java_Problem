@@ -12,7 +12,7 @@ public class PascalTriangle {
             for (int j = rows - i; j > 0; j--) {
                 System.out.print(" ");
             }
-            // Print numbers for each row
+            // Print numbers for each row ediited
             for (int k = 0; k <= i; k++) {
                 System.out.print(number + " ");
                 number = number * (i - k) / (k + 1);

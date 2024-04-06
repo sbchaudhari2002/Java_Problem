@@ -17,7 +17,7 @@ public class Practice {
 
     public static void main(String[] args) {
         int reversedArray[] = ReverseArray(array);
-        System.out.println("Reversed array: ");
+        System.out.println("Reversed array:  ");
         for (int i = 0; i < reversedArray.length; i++) {
             System.out.print(reversedArray[i] + " ");
         }
